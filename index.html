@@ -3,31 +3,74 @@
          <head>
            <title>Coffee Shop</title> 
 			<link rel="stylesheet" href="styles.css">
+			
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+			
 			<title>Coffee Shop</title>	
          </head>
 
          <body>
 			 <!--Header-->
 			 <section id="header">
-				 <div class="header container">
+				 <div class="header-container">
 					 <div class="nav-bar">
 						 <div class="brand">
-							<a href=""><img class="logo" src="./images/logo1.png"></a> 
+							<a href=""><img class="logo" src="./images/logo-light.png"></a> 
 						 </div>
 						 <div class="nav-list">
 							 <div class="hamburger">
 								 <div class="bar"></div>
 							 </div>
 							 <ul>
-								<li><a href="#" data-after="HOME">HOME</a></li>
-				 				<li><a href="#free" data-after="PAGES">PAGES</a></li>
-				  				<li><a href="#" data-after="PORTFOLIO">PORTFOLIO</a></li>
-				  				<li><a href="#" data-after="BLOG">BLOG</a></li>
-				 			    <li><a href="#" data-after="SHOP">SHOP</a></li>
-				  				<li><a href="#" data-after="ELEMENTS">ELEMENTS</a></li> 
+								<li>
+									<a href="#">Home
+									<i class="fas fa-caret-down"></i>
+									</a>
+									<ul>
+									   <li><a href="#gallery">gallery</a></li>
+									   <li><a href="about.html">about</a></li>
+									   <li><a href="contact.html">contact</a></li>
+									</ul>
+								 </li>
+				 				
+				  				<li><a href="about.html" data-after="ABOUT">ABOUT</a>
+								
+								
+								</li>
+								<li>
+									<a href="#">Menu
+									<i class="fas fa-caret-down"></i>
+									</a>
+									<ul>
+									   <li><a href="#">ESPRESSO & CLASSICS</a>
+									        <ul>
+									         <li><a href="#">Americano</a></li>
+									         <li><a href="#">Espresso</a></li>
+									        <li><a href="#">Cappuccino</a></li>
+									      </ul>
+									   </li>
+									   <li><a href="#">Tea</a>
+									       <ul>
+									         <li><a href="#">Ginger Lemon Tea</a></li>
+									         <li><a href="#">Morrocan Tea</a></li>
+									        <li><a href="#">English Breakfast Tea</a></li>
+									         <li><a href="#">Green Tea</a></li>
+									      </ul>
+									   </li>
+									   <li><a href="#">ICE BLENDED</a></li>
+									</ul>
+								 </li>
+				  				<li><a href="contact.html" data-after="CONTACT">CONTACT</a>
+									
+								</li>
+				 			    <li><a href="#" data-after="SHOP">SHOP</a>
+									
+								</li>
+				  				
 								
 							 </ul>
 						 </div>
+						 
 					 </div>
 				 </div>
 			 </section>
@@ -35,20 +78,25 @@
 		 
                 <!--Coffee Section--> 
 				<section id="coffee">
-					<div class="coffee container">
-						<div>
+					<div class="coffee-container">
+					    <div>
+						<div class="logoheader">
+							<img class="logo" src="./images/h1img1.png">
 							<h1>COFFEE FACTORY</h1>
+							
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								<br>incid idnut ut labore et dolore magna aliqua atin script and its variants, and.</p>
+								incid idnut ut labore et dolore magna aliqua atin script and its variants, and.</p>
 							<a href="#" type="button" class="cta">SHOP HERE</a>
 						</div>
+					</div>
 					</div>
 				</section>
 				<!--End Coffee Section--> 
 
 				<!-- Free Section-->
 				<section id="free">
-					<div class="free container">
+					<div class="free-container">
+						<div class="row">
 						<div class="free-top">
 							<h1 class="section-title">OUR DELICIOUS OFFER</h1>
 							<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -56,43 +104,46 @@
 						</div>
 						
 						<div class="free-bottom">
+							<div class="row">
 							<div class="free-item">
-								<div class="icon"><img src="https://img.icons8.com/ios/50/000000/coffee--v1.png"/>
+								<div class="icon">
+									<img src="images/custom1.png"/>
 								</div>
 								<h2>TYPES OF COFFEE</h2>
-								<P>lOREM IPSUM DOLOR SIT AMETAL, CONSECTETUER ADIPISCING ELITUS, AENEANTOS COMMODO</P>
+								<P>Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</P>
 							</div>
 
 							<div class="free-item">
-								<div class="icon"><img src="https://img.icons8.com/ios/50/000000/coffee-beans-.png"/>
+								<div class="icon"><img src="images/custom2.png"/>
 								</div>
 								<h2>BEAN VARIETIES</h2>
-								<P>lOREM IPSUM DOLOR SIT AMETAL, CONSECTETUER ADIPISCING ELITUS, AENEANTOS COMMODO</P>
+								<P>Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</P>
 							</div>
 
 							<div class="free-item">
-								<div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/coffee-beans---v1.png"/>
+								<div class="icon"><img src="images/custom3.png"/>
 								</div>
 								<h2>COFFEE & PASTRY</h2>
-								<P>lOREM IPSUM DOLOR SIT AMETAL, CONSECTETUER ADIPISCING ELITUS, AENEANTOS COMMODO</P>
+								<P>Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</P>
 							</div>
 
 							<div class="free-item">
-								<div class="icon"><img src="https://img.icons8.com/ios/50/000000/crumpled-coffee-cup.png"/>
+								<div class="icon"><img src="images/custom4.png"/>
 								</div>
 								<h2>COFFEE TO GO</h2>
-								<P>lOREM IPSUM DOLOR SIT AMETAL, CONSECTETUER ADIPISCING ELITUS, AENEANTOS COMMODO</P>
+								<P>Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</P>
 							</div>
 						</div>
-						
 					</div>
-					
+					</div>
+				</div>
 				</section>
 				<!-- End Free Section-->
 
 				<!-- Herald Section-->
 				<section id="herald">
-					<div class="herald container">
+					<div class="herald-container">
+						<div class="row">
 						<div class="herald-top">
 							<h1 class="herald-section-title">THE COFFEE HERALD</h1>
 							<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -100,8 +151,9 @@
 						</div>
 						
 						<div class="herald-bottom">
+							<div class="row">
 							<div class="herald-item">
-								<div class="img"><img src="./images/prep.jpg">
+								<div class="img"><a href=""><img src="./images/herald1.jpg"></a>
 								</div>
 								<h2>PREP TECHNIQUES</h2>
 								<P>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi,
@@ -110,7 +162,7 @@
 							</div>
 
 							<div class="herald-item">
-								<div class="img"><img src="./images/french.jpg">
+								<div class="img"><a href=""><img src="./images/herald2.jpg"></a>
 								</div>
 								<h2>FRENCH PRESS</h2>
 								<P>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi,
@@ -119,15 +171,15 @@
 							</div>
 
 							<div class="herald-item">
-								<div class="img"><img src="./images/turkish.jpg">
+								<div class="img"><a href=""><img src="./images/herald3.jfif"></a>
 								</div>
 								<h2>TURKISH IBRIK</h2>
 								<P>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, 
 									nam eget dui. Etiam rhoncus maecenas tempus,</P>
 								<a href="#" type="button" class="hbtn">-READ MORE</a>
 							</div>
-
-							
+						</div>
+						</div>
 						</div>
 						
 					</div>
@@ -138,6 +190,8 @@
 				<!-- Bestcoffee Section-->
 				<section id="bestcoffee">
 					<div class="bestcoffee container">
+					    <div class="bestcoffee-logo">
+					        </div>
 						
 						
 					</div>
@@ -147,12 +201,14 @@
 
 				<!-- Count Section-->
 				<section id="count">
-					<div class="count container">
+					<div class="count-container">
+						<div class="row">
 						<div class="count-bottom">
+							<div class="row">
 							<div class="count-item">
 								<div class="icon"><h1 class="count-section-title">250</h1>
 								</div>
-								<h2>VARIETIES OF COFFEE</h2>
+								<h2>VARIETIES  COFFEE</h2>
 								<P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</P>
 							</div>
 
@@ -177,15 +233,17 @@
 								<P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</P>
 							</div>
 						</div>
+						</div>
 						
 					</div>
-					
+				</div>
 				</section>
 				<!-- End count Section-->
 
 				<!-- Online Section-->
 				<section id="online">
-					<div class="online container">
+					<div class="online-container">
+						<div class="row">
 						<div class="online-top">
 							<h1 class="online-section-title">ONLINE COFFEE SHOP</h1>
 							<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -193,39 +251,206 @@
 						</div>
 						
 						<div class="online-bottom">
+							<div class="row">
 							<div class="online-item">
-								<div class="img"><img src="./images/online.jpg">
+								<div class="img"><a href=""><img src="./images/shop1.png"></a>
 								</div>
 								<h2>ETHIOPIA COFFEE</h2>
 								<h3>$15.00</h3>
 							</div>
 
 							<div class="online-item">
-								<div class="img"><img src="./images/online.jpg">
+								<div class="img"><a href=""><img src="./images/shop1.png"></a>
 								</div>
 								<h2>KENYA COFFEE</h2>
 								<h3>$18.00</h3>
 							</div>
 
 							<div class="online-item">
-								<div class="img"><img src="./images/online.jpg">
+								<div class="img"><a href=""><img src="./images/shop1.png"></a>
 								</div>
 								<h2>COLUMBIA COFFEE</h2>
 								<h3>$21.00</h3>
 							</div>
 
 							<div class="online-item">
-								<div class="img"><img src="./images/online.jpg">
+								<div class="img"><a href=""><img src="./images/shop1.png"></a>
 								</div>
 								<h2>GUATEMALA COFFEE</h2>
 								<h3>$25.00</h3>
 							</div>
 						</div>
-						
 					</div>
-					
+					</div>
+				</div>
 				</section>
 				<!-- End Online Section-->
+
+				<!-- Gallery Section-->
+
+				<section id="gallery">
+					<div class="gallery container">
+						<div class="gallery-top">
+							<h1 class="gallery-section-title">OUR SWEET GALLERY</h1>
+							<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+								<br>sed do eiusmod tempor incididunt ut labore et dolore</P>
+						</div>	
+						
+						<div class="img-gallery">
+							<a href=""><img src="images/gallery1.jpg"></a>
+							<a href=""><img src="images/gallery2.jpg"></a>
+							<a href=""><img src="images/gallery3.jpg"></a>
+							<a href=""><img src="images/gallery4.jpg"></a>
+							<a href=""><img src="images/gallery5.jpg"></a>
+							<a href=""><img src="images/gallery6.jpg"></a>
+							<a href=""><img src="images/gallery7.jpg"></a>
+							<a href=""><img src="images/gallery8.jpg"></a>
+							
+						</div>	
+					</div>
+				</div>
+					
+				</section>
+				
+
+				<!-- End Gallery Section-->
+
+				<!-- Cafe Section-->
+				<section id="cafe">
+					<div class="cafe-container">
+					<div class="row">
+					<div class="cafe-bottom">
+						<div class="row">
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover1.png"></a>
+								</div>
+							</div>
+
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover2.png"></a>
+								</div>
+							</div>
+
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover3.png"></a>
+								</div>
+							</div>
+
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover4.png"></a>
+								</div>
+							</div>
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover5.png"></a>
+								</div>
+							</div>
+							<div class="cafe-item">
+								<div class="img"><a href=""><img src="./images/hover6.png"></a>
+									
+								</div>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+				</section>
+				<!-- End Cafe Section-->
+
+				<!-- Contact Section-->
+				<section id="contact">
+					<div class="contact-bottom">
+						<div class="heading">
+						<h1>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO</h1>
+					</div>
+						<button class="btncontact">CONTACT US</button>
+
+					</div>
+
+				</section>
+				<!-- End Contact Section-->
+
+				<!-- details Section-->
+				<section id="details">
+					<div class="details-bottom">
+						<div class="heading">
+							<a href=""><img class="logo" src="./images/logo-light.png"></a>
+						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+							
+							nostrud exercitation ullamco laboris.</P>
+							<br><br<br><br>
+							<h1>STORES</h1><br>
+							<P>Dunsmuir Ave, Los Angeles, CA 90036, USA<br>
+
+								Atkins Ave, Brooklyn, NY 11208, USA
+								
+								</P><br><br<br><br><br>
+								<h1>NEWS AS FRESH AS OUR COFFEE</h1>
+								<button type="button" class="mailbutton">
+									<span class="button__text">Your E-mail Address..</span>
+									<span class="button__icon">
+										<ion-icon class="micon" name="mail-outline"></ion-icon>
+
+									</span>
+
+								</button>
+								<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+				
+					</div>
+			</div>
+
+		</section>
+				<!-- End details Section-->
+
+				<!-- Footer Section-->
+				<footer class="footer">
+					<div class="footer-container">
+						<div class="row">
+							<div class="footer-col">
+							<p>&copy; 2018 <a href="http://forthwalls.com/" target="_blank" rel="nofollow noopener noreferrer">Qode Interactive</a>, All Rights Reserved</p>
+								<ul>
+									<li><a href="#"></a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>Company</h4>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="#">Shop</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>Get help</h4>
+								<ul>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Order status</a></li>
+									<li><a href="#">Payment options</a></li>
+									
+								</ul>
+							</div>
+							
+							<div class="footer-col">
+								<h4>follow us</h4>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									
+									
+									<a href="#"><i class="fab fa-tumblr"></i></a>
+									<a href="#"><i class="fab fa-vimeo"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- End Footer Section-->
 
 				
 

@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+         <head>
+           <title>Coffee Shop</title> 
+           
+           <link rel="stylesheet" href="styles.css">
+           <script src="script.js"></script>
+           <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+			
+			
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+			
+			
+			<title>Coffee Shop</title>	
+         </head>
+
+         <body>
+			 <!--Header-->
+			 <section id="header">
+				 <div class="header-container">
+					 <div class="nav-bar">
+						 <div class="brand">
+							<a href=""><img class="logo" src="./images/logo-light.png"></a> 
+						 </div>
+						 <div class="nav-list">
+							 <div class="hamburger">
+								 <div class="bar"></div>
+							 </div>
+							 <ul>
+								<li>
+									<a href="index.html">Home
+									<i class="fas fa-caret-down"></i>
+									</a>
+									<ul>
+									   <li><a href="#gallery">gallery</a></li>
+									   <li><a href="about.html">about</a></li>
+									   <li><a href="contact.html">contact</a></li>
+									</ul>
+								 </li>
+				 				
+				  				<li><a href="about.html" data-after="ABOUT">ABOUT</a>
+								
+								
+								</li>
+								<li>
+									<a href="#">Menu
+									<i class="fas fa-caret-down"></i>
+									</a>
+									<ul>
+									   <li><a href="#">ESPRESSO & CLASSICS</a>
+									        <ul>
+									         <li><a href="#">Americano</a></li>
+									         <li><a href="#">Espresso</a></li>
+									        <li><a href="#">Cappuccino</a></li>
+									      </ul>
+									   </li>
+									   <li><a href="#">Tea</a>
+									       <ul>
+									         <li><a href="#">Ginger Lemon Tea</a></li>
+									         <li><a href="#">Morrocan Tea</a></li>
+									        <li><a href="#">English Breakfast Tea</a></li>
+									         <li><a href="#">Green Tea</a></li>
+									      </ul>
+									   </li>
+									   <li><a href="#">ICE BLENDED</a></li>
+									</ul>
+								 </li>
+				  				<li><a href="#" data-after="CONTACT">CONTACT</a>
+									
+								</li>
+				 			    <li><a href="#" data-after="SHOP">SHOP</a>
+									
+								</li>
+				  				
+								
+							 </ul>
+						 </div>
+						 
+					 </div>
+				 </div>
+			 </section>
+			 <!--End Header-->
+		 
+                <!--Coffee Section--> 
+				<section id="acoffee">
+					<div class="acoffee-container">
+					    <div>
+						<div class="alogoheader">
+						
+							<h1>CONTACT US</h1>
+							
+							
+						</div>
+					</div>
+					</div>
+				</section>
+				<!--End Coffee Section--> 
+				
+				<!-- Contact-US Section-->
+
+				<section id="contact-us">
+					<div class="contactus-container">
+						<div class="row">
+							<div class="contactus-col">
+							<h3>GET IN TOUCH</h3>	
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								 do eiusmod tempor incididunt ut labore et dolore magna 
+								 aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br> 
+								ullamco laboris nisi ut aliquip ex ea.</p><br>
+								<ul>
+									<li>Duis aute irure dolor</li>
+									<li>In reprehenderit in</li>
+									<li>Voluptate velit esse</li>
+									<li>Illum dolore eu fugiat nulla pariatur.</li>
+								  </ul> 
+
+								<div class="social-links">
+									<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+									<a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+									<a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+									
+									
+									<a href="https://www.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+								
+								</div>
+
+							</div>
+
+						
+						<div class="contactus-col-right">
+							<div id="error_message"></div>
+							<form id="myform" onsubmit="return validation()">
+								
+								<div class="input-row">
+									<div class="input_field">
+										<label>Name</label>
+										<input type="text" placeholder="Name" id="name">
+
+									</div>
+									<div class="input-group">
+										<label>Phone</label>
+										<input type="text" placeholder="Phone" id="phone">
+
+									</div>
+
+								</div>
+
+								<div class="input-row">
+									<div class="input-group">
+										<label>Email</label>
+										<input type="text" placeholder="Email" id="email">
+
+									</div>
+									<div class="input-group">
+										<label>Subject</label>
+										<input type="text" placeholder="Subject" id="subject">
+
+									</div>
+
+								</div>
+								<label>Message</label>
+								<textarea rows="5" placeholder="your message" id="message"></textarea>
+								
+								<div class="btncontact">
+								<button type="submit">SEND MESSAGE</button>
+							</div>
+							</form>	
+
+							</div>
+						</div>
+						<div class="map">
+							<div class="contact-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30703867.071679905!2d64.40183608457193!3d20.04915895569306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1645270859392!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</div>
+					</div>
+						</section>
+				<!-- End Contact-US Section-->
+
+				
+
+
+				<!-- details Section-->
+				<section id="details">
+					<div class="details-bottom">
+						<div class="heading">
+							<a href=""><img class="logo" src="./images/logo-light.png"></a>
+						<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+							
+							nostrud exercitation ullamco laboris.</P>
+							<br><br<br><br>
+							<h1>STORES</h1><br>
+							<P>Dunsmuir Ave, Los Angeles, CA 90036, USA<br>
+
+								Atkins Ave, Brooklyn, NY 11208, USA
+								
+								</P><br><br<br><br><br>
+								<h1>NEWS AS FRESH AS OUR COFFEE</h1>
+								<button type="button" class="mailbutton">
+									<span class="button__text">Your E-mail Address..</span>
+									<span class="button__icon">
+										<ion-icon class="micon" name="mail-outline"></ion-icon>
+
+									</span>
+
+								</button>
+								<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+					</div>
+						
+
+					</div>
+
+				</section>
+				<!-- End details Section-->
+
+				<!-- Footer Section-->
+				<footer class="footer">
+					<div class="footer-container">
+						<div class="row">
+							<div class="footer-col">
+							<p>&copy; 2018 <a href="http://forthwalls.com/" target="_blank" rel="nofollow noopener noreferrer">Qode Interactive</a>, All Rights Reserved</p>
+								<ul>
+									<li><a href="#"></a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>Company</h4>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="#">Shop</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>Get help</h4>
+								<ul>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Order status</a></li>
+									<li><a href="#">Payment options</a></li>
+									
+								</ul>
+							</div>
+							
+							<div class="footer-col">
+								<h4>follow us</h4>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									
+									
+									<a href="#"><i class="fab fa-tumblr"></i></a>
+									<a href="#"><i class="fab fa-vimeo"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- End Footer Section-->
+
+				
+
+				<script src="./app.js"></script>   
+				
+				<!-- testimonials-->
+				<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script> 
+  <script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+  <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    })
+</script>
+				<!--end testimonials-->
+                              
+         </body>
+</html>
